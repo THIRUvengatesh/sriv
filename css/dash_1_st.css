@@ -1,0 +1,149 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 04-Jun-2024, 5:35:50 pm
+    Author     : VENKI
+*/
+#to_p{
+    padding-top: 10px;
+    padding-bottom: 26px;
+    padding-left: 5px;
+    
+}
+#to{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.dash_blocks{
+    margin-left: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    height: 150px;
+    width: 25%;
+    /*background-color: red;*/
+    /*border: 2px solid blue;*/
+    border-radius: 5px;
+}
+.par_dis_b{
+    display: flex;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+}
+#bl_1{
+    background-color: rgb(86, 101, 115 );
+}
+#bl_2{
+    background-color: rgb(73,119,231);
+}
+#bl_3{
+    background-color: rgb(158,113,206);
+}
+#bl_4{
+    background-color: rgb(255,148,77);
+}
+.db_in{
+    color :#ffffff;
+    margin: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.dash_blocks:hover{
+    cursor: pointer;
+    color: rgb(175,122,197);
+}
+.coun{
+    padding: 15px;
+    font-size: 43px;
+}
+#ov_board{
+    margin-top: 20px;
+    background-color: white;
+}
+#ov_b_head{
+    height: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.obvh{     
+    background-color: rgb(249,249,251);
+    border: 1px solid rgb(238,238,238);
+    padding: 16px;
+    height: 38px;
+    /*color: black;*/
+}
+.sb1{
+    background-color: rgb(249,249,251); 
+    border: 1px solid rgb(238,238,238);
+    padding-left: 16px;
+    height: 38px;
+}
+#ov_options{
+        display: flex;
+}
+#pagination{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* CSS */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  /*background-color: #405cf5;*/
+  background-color: rgb(73,119,231);
+  border-radius: 3px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 38px;
+  line-height: 1.15;
+  /*margin: 12px 0 0;*/
+  outline: none;
+  overflow: hidden;
+  /*padding: 0 25px;*/
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 180px;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+.dash_blocks:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+.select_box_1{
+    background-color: rgb(249,249,251);
+    border: 1px solid rgb(238,238,238);
+    padding: 16px;
+}
+#blankcon{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    opacity: 0.5;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}

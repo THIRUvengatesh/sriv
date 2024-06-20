@@ -1,0 +1,155 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10-Mar-2024, 2:39:30 pm
+    Author     : DHANAPAL 
+*/
+
+* {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+input, select {
+    height: 30px;
+    width: 250px;
+    border: 1px solid green;
+    /* border-image: linear-gradient(to right, #1d87da, #a2cf6e) 1; */
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+input:focus {
+    border: 3px solid ;
+    /*border-image: linear-gradient(to right, #1d87da, #a2cf6e) 1;*/
+}
+
+.companname {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #172B4D;
+}
+
+.bg-white {
+    /*background: #f2f2f2;*/
+}
+
+.bg-lightgreen {
+    background: #a2cf6e;
+}
+
+.bg-blue {
+    /* background: #356991; */
+    /* background: #1d87da; */
+    /* color: white; */
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #1d87da, #a2cf6e) !important;
+}
+
+.header {
+    display: flex;
+    height: 58px;
+}
+
+.inline-head {
+    /* padding: 10px; */
+    /* background: red; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .gradient-border {
+    border: 3px solid;
+    border-image: linear-gradient(to right, #1d87da, #a2cf6e) 1;
+  } */
+
+  th, td {
+/*    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;*/
+  }
+
+.menus {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*//////////Second Update///////////////*/
+
+
+#issue_log_form {
+
+  label,
+  input {
+    width: 40%;
+  }
+
+  .form-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form-group label {
+    width: 30%;
+    text-align: left;
+    padding-right: 10px;
+    font-weight: bold;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 40%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group textarea {
+    height: 80px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #45A049;
+  }
+}
+  
+
+  fieldset {
+    border: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    /*width: 1000px;*/
+  }
+  th, td {
+/*    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;*/
+  }
+  th {
+/*    background-color: #f2f2f2;
+    font-weight: bold;*/
+/*color: #BBBDC7;*/
+  }

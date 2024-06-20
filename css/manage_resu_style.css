@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10-Apr-2024, 6:58:25 am
+    Author     : VENKI
+*/
+
+.manage_user_parent{
+    width: 80vw;
+    /*min-width: 200px;*/
+    height: 30vw;
+    overflow:hidden;
+    /*border: 1px solid blue;*/
+}
+.mup_head{
+    background-color: #9BDBFF;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+.mup_h_c{
+    /*background-color: yellow;*/
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    /*font-weight: bold;*/
+}
+.mup_h_c:hover{
+    
+}
+#db{
+    display: none;
+}
+#dp{
+    display: none;
+}

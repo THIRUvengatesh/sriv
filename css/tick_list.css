@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30-Mar-2024, 3:46:05 am
+    Author     : VENKI
+*/
+
+#ticketListContainer{
+    /*border-left: 1px solid green;*/
+    border-top: 1px solid gray;
+    height: 90%;
+    width: 95%;
+    min-width: 1000px;
+    padding-left: 10px;
+    /*background-color: green;*/
+}
+.concon{
+    height: 550px;
+}
+#ticketListContainerClosed{
+    /*border-left: 1px solid green;*/
+    border-right: 1px solid green;
+    height: 90%;
+    width: 95%;
+    min-width: 1000px;
+    padding-left: 10px;
+    display: none;
+    /*background-color: green;*/
+}
+
+#ticket_list_head{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    width: 95%;
+}
+.hds{
+    width: 120px;
+    /*background-color: #f2f2f2;*/
+    font-weight: bold;
+/*    border-top:  1px solid green;
+    border-left:  1px solid green;*/
+    padding-top:  5px;
+    padding-bottom:  5px;
+    padding-left: 10px;
+}
+#act{
+    background-color: green;
+}
+.view-tic:hover{
+    background-color: #b8d1fb;
+}
+.row-tic:hover{
+    background-color: #D7E9FD;
+    border-left: 4px solid blue;
+}
+.row-tic{
+    background-color: white;
+    border-left: 4px solid white;
+    border-radius: 5px;
+    border-bottom: 5px solid #F9F9FB;
+    border-top: 5px solid #F9F9FB;
+    height: 50px;
+}
+#tl_head{
+    text-align: justify;
+}
+.t_id_list{
+        color: #BBBDC7;
+}
+.t_list_cre{
+    font-weight: 500;
+}

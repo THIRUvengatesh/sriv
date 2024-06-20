@@ -1,0 +1,100 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11-Feb-2024, 4:00:27 am
+    Author     : VENKI
+*/
+.initialst{
+    background-color: #b8d1fb;
+    font-weight: bold;
+}
+#visualArea{
+/*    overflow: scroll;*/
+    background-color: rgb(249,249,251);
+}
+#hommie{
+    display: none;
+}
+#home_menu{
+    
+    width: 100%;
+    height: 93.3%;
+    min-height: 45px;
+}
+.min-h{
+    min-height: 300px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+/*td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}*/
+td, th {
+/*  border: 1px solid #dddddd;
+  text-align: left;*/
+  padding: 8px;
+}
+td{
+    padding-left: 15px;
+}
+tr{
+    
+    
+}
+tr:nth-child(even) {
+  /*background-color:#f0f1f0;*/
+  /*background-color: #cedebc;*/
+}
+/*dhanpal*/
+.popup-table > tr:nth-child(even) { 
+    /*background-color: #8fb6d5;*/
+}
+
+filter_input {
+  background-color: #dddddd;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  /*width: 100%;*/
+  font-size: 16px;
+  /*padding: 12px 20px 12px 40px;*/
+  border: 1px solid #ddd;
+  /*margin-bottom: 12px;*/
+}
+#call_log_menu{
+    width: 100%;
+    height: 93.3%;
+    min-height: 45px;
+    display :none;
+}
+.callLog{
+    
+}
+textarea{
+    height: 300px;
+    width:500px;
+}
+#issue_menu{
+    
+    display :none;
+}
+#reports_menu{
+    
+    display :none;
+}
+#downloads_menu{
+    
+    display :none;
+}
+#manage_resu{
+    
+    display :none;
+}
